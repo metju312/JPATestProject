@@ -9,7 +9,8 @@
         <class>entities.User</class>
 
         <properties>
-            <property name="hibernate.dialect" value="org.hibernate.dialect.SQLiteDialect" />
+            <!--<property name="hibernate.dialect" value="org.hibernate.dialect.SQLiteDialect" />-->
+            <property name="hibernate.dialect" value="util.SQLiteDialect" />
             <property name="javax.persistence.jdbc.driver" value="org.sqlite.JDBC" />
             <property name="javax.persistence.jdbc.url" value="jdbc:sqlite::memory:" />
             <property name="javax.persistence.jdbc.user" value="" />
