@@ -14,8 +14,8 @@ public class Main {
         entityManager.getTransaction().begin();
 
         User user1 = new User();
-        user1.setLogin("Jack");
-        user1.setHaslo("1234");
+        user1.setLogin("Jackiiii");
+        user1.setHaslo("123456");
 
         entityManager.persist(user1);
 
