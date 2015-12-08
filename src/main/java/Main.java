@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("something");
+        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("MW");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
 
         entityManager.getTransaction().begin();
