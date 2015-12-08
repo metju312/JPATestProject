@@ -19,6 +19,7 @@ public class Main {
 
         entityManager.persist(user1);
 
+
         entityManager.getTransaction().commit();
 
         entityManager.close();
